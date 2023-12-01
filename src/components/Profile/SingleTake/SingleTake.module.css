@@ -1,0 +1,60 @@
+.donationChild{
+    position: relative;
+}
+.childDiv{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin: 10px 0px;
+    color: black;
+    min-width: 400px;
+}
+
+@media screen and (max-width: 500px){
+    .childDiv{
+        padding: 10px;
+        min-width: 300px;
+    }
+    .donationChild img{
+        max-width: 150px !important;
+    }
+}
+@media screen and (max-width: 374px) {
+    .childDiv{
+        min-width: 250px;
+    }
+}
+.donationChild img{
+    max-width: 200px;
+}
+.contentChildDiv{
+    max-width: 400px;
+    text-align: right;
+}
+
+.childDiv{
+    position: relative;
+}
+.banner{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(-20deg) translateX(-20px) translateY(-10px);
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.overlayDiv{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.takerDiv{
+    
+}

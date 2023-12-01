@@ -1,0 +1,133 @@
+.profileDiv{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/Profile.jpg'); 
+    position: relative;
+    color: white;
+} 
+/* .giveDivScrollable{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/Give.jpg'); 
+    position: relative;
+    color: white;
+} */
+.overlayDiv{
+    min-width: 100vw;
+    min-height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.upperDiv{
+    z-index: 2;
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.upperDiv a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.contentDiv{
+    background: rgba(0, 0, 0, 1);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.contentChildDiv{
+    max-width: 400px;
+    text-align: right;
+}
+.donationDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.donationChild{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px;
+    color: black;
+    min-width: 400px;
+}
+.donationChild img{
+    max-width: 200px;
+}
+@media screen and (max-width: 650px) {
+    .productParent{
+        padding: 10px;
+    }
+}
+.statusBar{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.reqPending{
+    display: flex;
+    justify-content: center;
+    padding: 10px
+}
+.donationBtn{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.donationBtn button {
+    margin: 0px 5px;
+    padding: 0px 20px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    transition: 0.2s all ease-in-out;
+}
+
+.donationBtn button:hover{
+    background-color: white;
+    color: black;
+}
+.donationBtn button:active{
+    background-color: white;
+    color: black;
+}
+.claimDiv{
+    background-color: black;
+}
+
+.claim{
+    padding: 10px;
+    text-align: center;
+}
+
+.claim button{
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 10px;
+    transition: 0.3s all ease-in-out;
+}
+.claim button:hover{
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid black;
+}
+.claim button:active{
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid black;
+}

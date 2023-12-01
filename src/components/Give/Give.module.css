@@ -1,0 +1,139 @@
+.giveDiv{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/Give.jpg'); 
+    position: relative;
+    color: white;
+    overflow: hidden;
+} 
+.giveDivScrollable{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/Give.jpg'); 
+    position: relative;
+    color: white;
+}
+.overlayDiv{
+    min-width: 100vw;
+    min-height: 100vh;
+    position: absolute;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.upperDiv{
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+    
+}
+.giveDiv a{
+    text-decoration: none;
+    color: inherit;
+}
+.addBtn{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    height: 30vh;
+    padding: 0px 150px 
+}
+
+@media screen and (max-width: 400px){
+    .addBtn{
+        padding: 0px
+    }
+}
+@media screen and (max-width: 374px) {
+    .formDiv1{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 600px){
+    .addBtn{
+        margin-top: 40px;
+        padding: 0;
+    }
+    .addBtn button{
+        margin: 5px 0px;
+    }
+}
+.addBtn button{
+    border: 1px solid white;
+    background: none;
+    padding: 20px 35px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+    width: 230px
+}
+.addBtn button:hover{
+    background-color: darkgray;
+    color: black;
+}
+.formDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    min-width: 100vw;
+    background-color: black;
+    min-height: 120vh;
+    margin-top: 10px;
+}
+.formDiv input{
+    min-width: 200px;
+}
+.formDiv1{
+    margin-top: 10px;
+}
+.headingDiv{
+    margin-top: 10px;
+    /* width: 60%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgDiv img{
+    max-width: 100px;
+}
+.imageDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 370px;
+}
+.imageDiv>div{
+    margin: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.contentDiv{
+    background: rgba(0, 0, 0, 1);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+@media screen and (max-width: 650px) {
+    .productParent{
+        padding: 10px;
+    }
+}
+.donationDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}

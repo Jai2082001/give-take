@@ -1,0 +1,77 @@
+.homeDiv{
+    background-image: url('../images/GiveAndTakeHand.jpg');
+    min-height: 100vh;
+    min-width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white ;
+    position: relative;
+}
+.upperDiv{
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.overlayDiv{
+    position: absolute;
+    z-index: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: rgba(0, 0, 0, 0.6);
+}
+.quote{
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+}
+@media screen and (max-width: 424px) {
+    .quote{
+       font-size: 40px; 
+    }
+}
+@media screen and (max-width: 300px){
+    .quote{
+        font-size: 30px;
+    }
+}
+.btns{
+    text-align: center;
+}
+.btns button{
+    margin-top: 20px;
+}
+
+
+.bigBtns{
+    padding: 30px 50px;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns button {
+    padding: 20px 50px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+.btns button:hover{
+    background-color: lightgrey;
+    color: black;
+}
+
+.homeDiv a{
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (max-width: 600px) {
+    /* .navbar h3{
+        color: black
+    } */
+}

@@ -1,0 +1,91 @@
+
+.parentDiv{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('../images/chooseProduct.jpg');
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.overlayDiv{
+    position: absolute;
+    top: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+.upperDiv{
+    position: absolute;
+    min-height: 100vh;
+    min-width: 100vw;
+    z-index: 1;
+}
+
+.parentDiv a{
+    text-decoration: none;
+    color: inherit;
+}
+.itemDiv{
+    /* padding: 20px 0px; */
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+.childItemDiv{
+    background-color: lightgrey;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.productDiv{
+    display: flex;
+    flex-direction: row;
+}
+.takeReqs{
+    margin-top: 10px;
+    padding: 8px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+.takeReqs:hover{
+    background-color: black;
+}
+.takeReqs:active{
+    background-color: black;
+}
+
+.imgDiv img{
+    max-width: 150px;
+}
+.nameDiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.takersDiv{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    min-width: 100vw;
+    background-color: black;
+    min-height: 120vh;
+    margin-top: 10px;
+}
+.takerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}

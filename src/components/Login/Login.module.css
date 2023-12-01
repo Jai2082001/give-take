@@ -1,0 +1,94 @@
+.loginDiv{
+    background-image: url('../images/loginSecond.jpg');
+    min-height: 100vh;
+    min-width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white ;
+    position: relative; 
+}
+.upperDiv{
+    z-index: 2;
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.overlayDiv{
+    position: absolute;
+    z-index: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: rgba(0, 0, 0, 0.4);
+}
+/* .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px 0px 0px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.navbar ul li{
+    margin: 0px 10px;
+    transition: 0.2s all ease-in-out
+}
+.navbar ul li:hover{
+    cursor: pointer;
+    color: rgb(111, 111, 111);
+}
+.socialMediaIcon{
+    display: flex;
+    flex-direction: column;
+}
+.socialMediaIcon i{
+    margin: 5px 0px;
+    cursor: pointer;
+}
+.socialDesc{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.socialDescParent{
+    transition: 0.2s all ease-in-out;
+}
+.upperDiv a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.socialDescParent>i{
+
+}
+.socialDescParent>i:hover {
+    visibility: visible;
+} */
+
+.loginForm{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginFormDiv{
+    background-color: black;
+    padding: 20px 30px;
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 374px) {
+    .loginFormDiv{
+        padding: 0px;
+    }
+}
+
+.btnDiv{
+    display: flex;
+    justify-content: space-around;
+}
+.btnDiv button{
+    margin: 10px 15px;
+}

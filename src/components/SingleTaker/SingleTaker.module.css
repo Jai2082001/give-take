@@ -1,0 +1,33 @@
+.takerDiv{
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    color: black;
+}
+.takerDiv button{
+}
+
+.infoDiv{
+    margin: 0px 10px;
+}
+.btnDiv button{
+    background: none;
+    border: 1px solid black;
+    color: black;
+    padding: 0px 10px;
+    transition: 0.2s all ease-in-out;
+}
+
+.btnDiv button:hover{
+    background-color: white;
+    color: black;
+}
+
+.btnDiv button:active{
+    background-color: white;
+    color: black;
+}

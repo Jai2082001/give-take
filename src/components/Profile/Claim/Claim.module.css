@@ -1,0 +1,20 @@
+.claimDiv{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.takerClaim button{
+    border: 1px solid white;
+    padding: 10px;
+    background: none;
+    color: white;
+    transition: 0.2s all ease-in-out;
+}
+.takerClaim button:hover{
+    background: lightgrey;
+    cursor: pointer;
+    color: black;
+}
